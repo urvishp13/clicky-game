@@ -23,7 +23,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <h1 className="title">Friends List</h1>
+        <h1 className="title">Clicky Game</h1>
         {/* Map over this.state.friends and print out a FriendCard for each friend */}
         {this.state.friends.map((friend, i) => (
           <FriendCard
